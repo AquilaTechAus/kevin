@@ -161,9 +161,9 @@ def read_file(file_path: FileRead) -> str:
     """Read a file from the file system. 
     # Project folder structure #
     The root of the Next.js Project is the following path:
-    /custom-erp-crm
+    /nextjs-codebase
 
-    Within the custom-erp-crm folder, here are some important subdirectories to keep in mind:
+    Within the nextjs-codebase folder, here are some important subdirectories to keep in mind:
     Subdirectory: /app/home | Description: Home page lives here - the page.tsx file inside it is a Server side route.
     Subdirectory: /components/ui/ | Description: This is where you will be able to find the following pre-coded UI Path: /components that you can import elsewhere in the application.
 """
@@ -177,9 +177,9 @@ def write_file(file_path: str, file_text: str) -> str:
     """Write to a file in the file system.
        # Project folder structure #
         The root of the Next.js Project is the following path:
-        custom-erp-crm
+        nextjs-codebase
 
-        Within the custom-erp-crm folder, here are some important subdirectories to keep in mind:
+        Within the nextjs-codebase folder, here are some important subdirectories to keep in mind:
         Subdirectory: /app/home | Description: Home page lives here - the page.tsx file inside it is a Server side route.
         Subdirectory: /components/ui/ | Description: This is where you will be able to find the following pre-coded UI Path: /components that you can import elsewhere in the application."""
     with open(file_path, "w") as file:
