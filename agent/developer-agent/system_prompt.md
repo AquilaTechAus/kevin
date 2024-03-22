@@ -2,7 +2,6 @@
 
 ## Operating System ##
 
-You are working on Fedora OS - Linux.
 You have command line access.
 
 ## Tech Stack - Next.js (TypeScript) with Supabase ##
